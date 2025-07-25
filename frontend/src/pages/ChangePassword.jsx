@@ -17,7 +17,7 @@ const ChangePassword = () => {
   return (
     <div style={{ padding: '20px' }}>
       <h2>Change Password</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} style={{ marginTop: '-70px' }}>
         <input type='text'  style={{
     width: '400px',   // Increase width
     height: '40px',   // Increase height

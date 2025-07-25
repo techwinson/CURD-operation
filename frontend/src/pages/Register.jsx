@@ -15,14 +15,14 @@ const Register = () => {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '0px' }}>
       <h2>Registration</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} style={{ marginTop: '-70px' }}>
         <input type='text'  style={{
     width: '400px',   // Increase width
     height: '40px',   // Increase height
     fontSize: '18px', // Increase text size
-    padding: '8px'    // Space inside the box
+    padding: '8px',    // Space inside the box
   }} placeholder='Username' onChange={e => setForm({ ...form, username: e.target.value })} /><br />
         <input type='email'  style={{
     width: '400px',   // Increase width

@@ -8,21 +8,20 @@ const Navbar = () => {
     color: "#000000",
     marginBottom: "20px",
     display: "flex",
+    flexdirection: "column",
     alignItems: "center",
     boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
     borderRadius: "8px",
     textAlign: "center",
-    fontSize: "24px",
+    fontSize: "20px",
     fontWeight: "bold",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
   };
   return (
     <div style={navStyle}>
       <h1>
-        <b>Passport CRUD</b>
+        <b>CRUD operation</b>
       </h1>
-      <div style={{ display: "flex", gap: "100px", marginLeft: "336px", textAlign: "center" }}>
+      <div style={{ display: "flex", gap: "120px", marginLeft: "300px", textAlign: "center" }}>
         <Link to="/" className="nav-link">
           Login
         </Link>

@@ -16,7 +16,7 @@ const Login = () => {
     }
   };
 
-  const style = { padding: '40px' };
+  const style = { padding: '0px' };
   return (
     <div style={style}>
       <h2>Login</h2>
